@@ -1,6 +1,21 @@
 # EssentialTimer Support & Privacy Policy
 
-Welcome to the EssentialTimer Support and Privacy Policy page.
+EssentialTimer is a versatile, high-performance interval timing and audio-guided training application for iOS designed to support a wide variety of fitness, breathwork, and athletic disciplines.
+
+---
+
+## About EssentialTimer
+
+Supported training modes include:
+- Standard Interval & Stopwatch Timers (Express Minute, Custom Work/Rest Intervals)
+- HIIT & High-Intensity Sprint Protocols
+- Tabata Training (20s Work / 10s Rest)
+- Boxing, Martial Arts & BJJ Grappling Round Timers
+- CrossFit & WOD Workouts
+- Movement Flow & Dynamic Warm-up Sequences
+- Essential Core Strength Protocols
+- Acro Yoga & Static Mobility Holds
+- Apnea O2 & CO2 Training Tables for Breathwork & Freediving
 
 ---
 
@@ -12,17 +27,20 @@ If you have any questions, feedback, or need technical assistance with Essential
 
 ## Frequently Asked Questions
 
-### 1. How do I switch between Voice Guides and Beep Mode?
-In the main menu, select Voice Cues to choose your favorite studio voice coach (10 HD voices available in American & British accents). During active workout timers, you can also toggle audio modes or mute audio directly from the control buttons.
+### 1. What types of timers and routines does EssentialTimer offer?
+EssentialTimer offers pre-built interval tables across multiple athletic disciplines including HIIT, Tabata, Boxing/MMA rounds, Movement Flow sequences, Core conditioning, and Apnea breath-hold tables. You can also build and save fully custom multi-phase routines.
 
-### 2. How do Apnea O2 and CO2 Tables work?
-O2 Table (Oxygen Tolerance) automatically increases hold duration by your selected increment every round while keeping rest constant. CO2 Table (Carbon Dioxide Tolerance) automatically decreases rest duration by your selected decrement every round while keeping hold constant. Tap the physical contraction counter button during hold phases to log contractions into your history analytics.
+### 2. How do Voice Guides and audio cues work?
+EssentialTimer includes 10 HD studio voice coaches in American and British accents that announce phase transitions, countdowns, and interval cues. You can also switch to Beep Mode or Silent Mode from the audio toggle on the active timer screen.
 
-### 3. Does EssentialTimer work while listening to music (Spotify / Apple Music)?
-Yes. EssentialTimer automatically mixes voice cues and countdowns over your background music playback without interrupting your music.
+### 3. Does EssentialTimer work while listening to background music?
+Yes. EssentialTimer automatically mixes voice cues and countdowns over your background music (Spotify, Apple Music, Podcasts) without stopping your playback.
 
-### 4. How do I save a routine to my Favorites?
-Tap the Star icon on any category or custom routine card to add it to your Favorites tab for 1-tap quick start access.
+### 4. How do I create and save custom workout routines?
+Tap the Create Custom Workout Section button in the category view to set custom work, rest, prepare, and cooldown durations, or tap the Star icon on any timer card to add it to your Favorites tab for 1-tap quick start access.
+
+### 5. How are session history and workout logs tracked?
+Completed sessions are automatically logged in the History and Calendar tabs, tracking total workout time, rounds completed, and completion rates over time.
 
 ---
 
@@ -30,6 +48,6 @@ Tap the Star icon on any category or custom routine card to add it to your Favor
 
 EssentialTimer does not collect, transmit, sell, or share any personal information, usage data, or user content.
 
-- Local Storage: All workout routines, session history logs, timer configurations, audio settings, and contraction tracking data are stored strictly locally on your device.
+- Local Storage: All workout routines, session history logs, timer configurations, audio settings, and custom routines are stored strictly locally on your device.
 - No Remote Servers: EssentialTimer operates completely offline and does not communicate with external servers or databases.
 - No Analytics: We do not use third-party tracking software, advertising SDKs, or analytics tools.
