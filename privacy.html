@@ -5,17 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EssentialTimer - Privacy Policy</title>
   <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background-color: #FFFFFF;
-      color: #111827;
+    * {
+      box-sizing: border-box;
+    }
+    html, body {
+      background-color: #FFFFFF !important;
+      background: #FFFFFF !important;
+      color: #111827 !important;
       margin: 0;
-      padding: 40px 20px;
+      padding: 0;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       line-height: 1.6;
     }
-    .container {
+    .page-wrapper {
       max-width: 720px;
       margin: 0 auto;
+      padding: 48px 24px 80px 24px;
+      background-color: #FFFFFF !important;
+      background: #FFFFFF !important;
+    }
+    .top-nav {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 36px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #E5E7EB;
+      font-size: 14px;
+    }
+    .top-nav a {
+      color: #2563EB;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .top-nav a:hover {
+      text-decoration: underline;
+    }
+    .top-nav .active {
+      color: #111827;
+      font-weight: 700;
+    }
+    .nav-sep {
+      color: #D1D5DB;
     }
     h1 {
       font-size: 28px;
@@ -60,7 +93,7 @@
       display: flex;
       gap: 16px;
       flex-wrap: wrap;
-      margin-top: 44px;
+      margin-top: 48px;
       padding-top: 20px;
       border-top: 1px solid #E5E7EB;
       font-size: 13.5px;
@@ -73,7 +106,17 @@
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="page-wrapper">
+    <nav class="top-nav">
+      <a href="support.html">Support & FAQ</a>
+      <span class="nav-sep">•</span>
+      <a href="privacy.html" class="active">Privacy Policy</a>
+      <span class="nav-sep">•</span>
+      <a href="terms.html">Terms of Service</a>
+      <span class="nav-sep">•</span>
+      <a href="delete-data.html">Data Deletion</a>
+    </nav>
+
     <h1>EssentialTimer Privacy Policy</h1>
     <div class="subtitle">Last Updated: August 19, 2026</div>
 
@@ -87,21 +130,30 @@
       <li><strong>No Third-Party Analytics</strong>: We do not use third-party tracking software, advertising SDKs, or analytics tools.</li>
     </ul>
 
-    <h2>2. Right to Erasure & Data Export</h2>
-    <p>You can export or permanently delete your local workout data at any time from within the app settings. Learn more on our <a href="delete-data.html">Data Deletion Instructions</a> page.</p>
+    <h2>2. Permissions & Device Features</h2>
+    <ul>
+      <li><strong>Audio & Media Playback</strong>: Used strictly to play voice cues, countdowns, and sound effects during active timer sessions, and to allow seamless audio mixing over background music playback.</li>
+      <li><strong>Haptic Feedback</strong>: Used strictly to provide tactile vibration cues for phase transitions during active workouts.</li>
+      <li><strong>Photos (Optional)</strong>: If you select custom background artwork for your workouts, photos are loaded and stored solely on your local device.</li>
+    </ul>
 
-    <h2>3. Children's Privacy (COPPA)</h2>
+    <h2>3. Right to Erasure & Data Export</h2>
+    <p>In compliance with GDPR Article 17 (Right to Erasure) and Article 20 (Data Portability), you have complete control over your workout logs. You can export a machine-readable JSON copy or permanently delete all data at any time from within the app settings. Learn more on our <a href="delete-data.html">Data Deletion Instructions</a> page.</p>
+
+    <h2>4. Children's Privacy (COPPA)</h2>
     <p>EssentialTimer does not collect any personal data from anyone, including children under the age of 13.</p>
 
-    <h2>4. Contact Us</h2>
+    <h2>5. Contact Us</h2>
     <p>If you have any questions regarding this Privacy Policy, please contact us directly at:<br>
     <a href="mailto:goloubov@gmail.com">goloubov@gmail.com</a></p>
 
     <div class="nav-links">
       <a href="support.html">Support & Help Center</a>
-      <span style="color: #D1D5DB;">•</span>
+      <span class="nav-sep">•</span>
+      <a href="privacy.html">Privacy Policy</a>
+      <span class="nav-sep">•</span>
       <a href="terms.html">Terms of Service & EULA</a>
-      <span style="color: #D1D5DB;">•</span>
+      <span class="nav-sep">•</span>
       <a href="delete-data.html">Data Deletion Instructions</a>
     </div>
 

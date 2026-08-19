@@ -5,17 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EssentialTimer - Customer Support & Help Center</title>
   <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background-color: #FFFFFF;
-      color: #111827;
+    * {
+      box-sizing: border-box;
+    }
+    html, body {
+      background-color: #FFFFFF !important;
+      background: #FFFFFF !important;
+      color: #111827 !important;
       margin: 0;
-      padding: 40px 20px;
+      padding: 0;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       line-height: 1.6;
     }
-    .container {
+    .page-wrapper {
       max-width: 720px;
       margin: 0 auto;
+      padding: 48px 24px 80px 24px;
+      background-color: #FFFFFF !important;
+      background: #FFFFFF !important;
+    }
+    .top-nav {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 36px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #E5E7EB;
+      font-size: 14px;
+    }
+    .top-nav a {
+      color: #2563EB;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .top-nav a:hover {
+      text-decoration: underline;
+    }
+    .top-nav .active {
+      color: #111827;
+      font-weight: 700;
+    }
+    .nav-sep {
+      color: #D1D5DB;
     }
     h1 {
       font-size: 28px;
@@ -77,7 +110,7 @@
       display: flex;
       gap: 16px;
       flex-wrap: wrap;
-      margin-top: 44px;
+      margin-top: 48px;
       padding-top: 20px;
       border-top: 1px solid #E5E7EB;
       font-size: 13.5px;
@@ -90,12 +123,22 @@
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="page-wrapper">
+    <nav class="top-nav">
+      <a href="support.html" class="active">Support & FAQ</a>
+      <span class="nav-sep">•</span>
+      <a href="privacy.html">Privacy Policy</a>
+      <span class="nav-sep">•</span>
+      <a href="terms.html">Terms of Service</a>
+      <span class="nav-sep">•</span>
+      <a href="delete-data.html">Data Deletion</a>
+    </nav>
+
     <h1>EssentialTimer Support & Help Center</h1>
     <div class="subtitle">Official Customer Support, FAQs, and Safety Disclaimers</div>
 
     <h2>Direct Customer Support</h2>
-    <p>For technical support, feedback, or bug reports, contact us via email:<br>
+    <p>For technical support, feedback, or bug reports, contact us directly via email:<br>
     <a href="mailto:goloubov@gmail.com">goloubov@gmail.com</a></p>
     <p style="font-size: 13.5px; color: #6B7280;">Support inquiries are typically reviewed and answered within 24–48 hours.</p>
 
@@ -144,10 +187,12 @@
     <p>You can export a machine-readable JSON copy of your history by tapping Export JSON in the History tab. You can also permanently wipe all local history, photos, and settings instantly via Privacy Policy & Terms → Clear Data, or by uninstalling the app from your device.</p>
 
     <div class="nav-links">
+      <a href="support.html">Support & Help Center</a>
+      <span class="nav-sep">•</span>
       <a href="privacy.html">Privacy Policy</a>
-      <span style="color: #D1D5DB;">•</span>
+      <span class="nav-sep">•</span>
       <a href="terms.html">Terms of Service & EULA</a>
-      <span style="color: #D1D5DB;">•</span>
+      <span class="nav-sep">•</span>
       <a href="delete-data.html">Data Deletion Instructions</a>
     </div>
 
