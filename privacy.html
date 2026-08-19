@@ -25,30 +25,39 @@
       background-color: #FFFFFF !important;
       background: #FFFFFF !important;
     }
-    .top-nav {
+    .top-nav, .nav-links {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 16px;
       flex-wrap: wrap;
+      font-size: 14px;
+    }
+    .top-nav {
       margin-bottom: 36px;
       padding-bottom: 16px;
       border-bottom: 1px solid #E5E7EB;
-      font-size: 14px;
     }
-    .top-nav a {
+    .nav-links {
+      margin-top: 56px;
+      padding-top: 24px;
+      border-top: 1px solid #E5E7EB;
+    }
+    .top-nav a, .nav-links a {
       color: #2563EB;
       text-decoration: none;
       font-weight: 500;
+      white-space: nowrap;
     }
-    .top-nav a:hover {
+    .top-nav a:hover, .nav-links a:hover {
       text-decoration: underline;
     }
-    .top-nav .active {
+    .top-nav a.active, .nav-links a.active {
       color: #111827;
       font-weight: 700;
     }
     .nav-sep {
       color: #D1D5DB;
+      user-select: none;
     }
     h1 {
       font-size: 28px;
@@ -89,15 +98,6 @@
     a:hover {
       text-decoration: underline;
     }
-    .nav-links {
-      display: flex;
-      gap: 16px;
-      flex-wrap: wrap;
-      margin-top: 48px;
-      padding-top: 20px;
-      border-top: 1px solid #E5E7EB;
-      font-size: 13.5px;
-    }
     footer {
       margin-top: 20px;
       font-size: 13px;
@@ -108,13 +108,13 @@
 <body>
   <div class="page-wrapper">
     <nav class="top-nav">
-      <a href="support.html">Support & FAQ</a>
+      <a href="support.html">Customer Support</a>
       <span class="nav-sep">•</span>
       <a href="privacy.html" class="active">Privacy Policy</a>
       <span class="nav-sep">•</span>
-      <a href="terms.html">Terms of Service</a>
+      <a href="terms.html">Terms of Service & EULA</a>
       <span class="nav-sep">•</span>
-      <a href="delete-data.html">Data Deletion</a>
+      <a href="delete-data.html">Data Deletion Instructions</a>
     </nav>
 
     <h1>EssentialTimer Privacy Policy</h1>
@@ -148,9 +148,9 @@
     <a href="mailto:goloubov@gmail.com">goloubov@gmail.com</a></p>
 
     <div class="nav-links">
-      <a href="support.html">Support & Help Center</a>
+      <a href="support.html">Customer Support</a>
       <span class="nav-sep">•</span>
-      <a href="privacy.html">Privacy Policy</a>
+      <a href="privacy.html" class="active">Privacy Policy</a>
       <span class="nav-sep">•</span>
       <a href="terms.html">Terms of Service & EULA</a>
       <span class="nav-sep">•</span>
